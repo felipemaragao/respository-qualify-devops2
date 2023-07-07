@@ -1,5 +1,5 @@
 module "instance" {
-    source = "caminho"
+    source = "https://github.com/felipemaragao/qualify-modules-terraform/tree/main/ec2"
     type = "banco"
     name = "teste1"
 }
